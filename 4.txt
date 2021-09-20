@@ -1,0 +1,28 @@
+INPUT nilaiawal
+
+IF nilaiawal >= 70 :
+	DISPLAY nilaiawal
+	DISPLAY ("lulus")
+	IF nilaiawal%5 == 3 :
+		nilaiakhir = nilaiawal+2
+		DISPLAY nilaiakhir
+	IF nilaiawal%5 == 4 :
+		nilaiakhir = nilaiawal+1
+		DISPLAY nilaiakhir
+ENDIF
+
+ELSEIF nilaiawal >= 68 :
+	DISPLAY nilaiawal
+	DISPLAY ("tidak lulus")
+	IF nilaiawal%5 == 3 :
+		nilaiakhir = nilaiawal+2
+		DISPLAY nilaiakhir
+	IF nilaiawal%5 == 4 :
+		nilaiakhir = nilaiawal+1
+		DISPLAY nilaiakhir
+
+ENDIF
+
+ELSE :
+	DISPLAY nilaiawal
+	DISPLAY ("tidak lulus")

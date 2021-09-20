@@ -1,0 +1,17 @@
+INPUT a
+INPUT n
+
+WHILE a <= n
+	IF CALCULATE a%3 = 0
+		DISPLAY  "Fizz"
+	ENDIF
+	IF CALCULATE a%5 = 0
+		DISPLAY "Buzz"
+	ENDIF
+	IF CALCULATE a%3 = 0 and a%5 = 0
+		DISPLAY "FizzBuzz"
+	ENDIF
+	ELSE	
+		DISPLAY a
+	a++
+ENDWHILE

@@ -1,0 +1,14 @@
+input temp
+input type
+
+IF type IS "kelvin" THEN
+	SET result = (temp-32) * (5/9)
+	DISPLAY result
+ENDIF
+ELSE IF type IS "farenheit" THEN
+	SET result = (temp-273.15)
+	DISPLAY result
+ENDIF
+ELSE
+	DISPLAY temp
+ENDIF

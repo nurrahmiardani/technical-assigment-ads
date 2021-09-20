@@ -1,0 +1,13 @@
+INPUT kalimat
+
+FOR (i=0; i<kalimat.length; i++)
+	SET palindrom = kalimat [kalimat.length]
+	kalimat.length -- 1
+ENDFOR
+
+IF kalimat == palindrome
+	DISPLAY "TRUE"
+ENDIF
+
+ELSE 
+	DISPLAY "FALSE"
